@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
 
         Library library = new Library();
-
         library.loadBooksFromFile();
         library.design();
         System.out.println("Welcome to your special library");
